@@ -24,11 +24,16 @@
 		1AAB3C521A0FC80F00227D5F /* EkgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB3C451A0FC80F00227D5F /* EkgViewController.m */; };
 		1AAB3C531A0FC80F00227D5F /* CPDConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB3C471A0FC80F00227D5F /* CPDConstants.m */; };
 		1AAB3C541A0FC80F00227D5F /* AirFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB3C491A0FC80F00227D5F /* AirFlowViewController.m */; };
-		1AAB3C5A1A0FC89C00227D5F /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAB3C591A0FC89C00227D5F /* libCorePlot-CocoaTouch.a */; };
 		1AAB3CB01A0FC8DE00227D5F /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB3CAA1A0FC8DE00227D5F /* UIViewController+RESideMenu.m */; };
 		1AAB3CB11A0FC8DE00227D5F /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB3CAC1A0FC8DE00227D5F /* RESideMenu.m */; };
 		1AAB3CB51A0FC8EB00227D5F /* F3BarGauge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB3CB31A0FC8EB00227D5F /* F3BarGauge.m */; };
 		1AAB3CB81A0FC90500227D5F /* WMGaugeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB3CB61A0FC90500227D5F /* WMGaugeView.m */; };
+		1AB85DEC1A0FEF3700A57938 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB85DEB1A0FEF3700A57938 /* QuartzCore.framework */; };
+		1AB85DEE1A0FEF4400A57938 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB85DED1A0FEF4400A57938 /* CoreGraphics.framework */; };
+		1AB85DF01A0FEF5100A57938 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB85DEF1A0FEF5100A57938 /* UIKit.framework */; };
+		1AB85DF21A0FEF5F00A57938 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB85DF11A0FEF5F00A57938 /* Foundation.framework */; };
+		1AB85DF31A0FEF8500A57938 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAB3C591A0FC89C00227D5F /* libCorePlot-CocoaTouch.a */; };
+		1AB85DF61A0FF05C00A57938 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB85DF51A0FF05C00A57938 /* RECommonFunctions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,6 +169,12 @@
 		1AAB3CB41A0FC8EB00227D5F /* F3BarGauge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = F3BarGauge.h; path = ExternalLibraries/BarGauge/F3BarGauge.h; sourceTree = "<group>"; };
 		1AAB3CB61A0FC90500227D5F /* WMGaugeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMGaugeView.m; path = ExternalLibraries/WMGauge/WMGaugeView.m; sourceTree = "<group>"; };
 		1AAB3CB71A0FC90500227D5F /* WMGaugeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMGaugeView.h; path = ExternalLibraries/WMGauge/WMGaugeView.h; sourceTree = "<group>"; };
+		1AB85DEB1A0FEF3700A57938 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1AB85DED1A0FEF4400A57938 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1AB85DEF1A0FEF5100A57938 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1AB85DF11A0FEF5F00A57938 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1AB85DF41A0FF05C00A57938 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RECommonFunctions.h; path = ExternalLibraries/RESideMenu/RECommonFunctions.h; sourceTree = "<group>"; };
+		1AB85DF51A0FF05C00A57938 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RECommonFunctions.m; path = ExternalLibraries/RESideMenu/RECommonFunctions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,7 +182,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AAB3C5A1A0FC89C00227D5F /* libCorePlot-CocoaTouch.a in Frameworks */,
+				1AB85DF31A0FEF8500A57938 /* libCorePlot-CocoaTouch.a in Frameworks */,
+				1AB85DF21A0FEF5F00A57938 /* Foundation.framework in Frameworks */,
+				1AB85DF01A0FEF5100A57938 /* UIKit.framework in Frameworks */,
+				1AB85DEE1A0FEF4400A57938 /* CoreGraphics.framework in Frameworks */,
+				1AB85DEC1A0FEF3700A57938 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +203,10 @@
 		1AAB3BFC1A0FC79100227D5F = {
 			isa = PBXGroup;
 			children = (
+				1AB85DF11A0FEF5F00A57938 /* Foundation.framework */,
+				1AB85DEF1A0FEF5100A57938 /* UIKit.framework */,
+				1AB85DED1A0FEF4400A57938 /* CoreGraphics.framework */,
+				1AB85DEB1A0FEF3700A57938 /* QuartzCore.framework */,
 				1AAB3C071A0FC79100227D5F /* HealthKit */,
 				1AAB3C211A0FC79100227D5F /* HealthKitTests */,
 				1AAB3C061A0FC79100227D5F /* Products */,
@@ -315,6 +334,8 @@
 		1AAB3C571A0FC84700227D5F /* RESideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				1AB85DF41A0FF05C00A57938 /* RECommonFunctions.h */,
+				1AB85DF51A0FF05C00A57938 /* RECommonFunctions.m */,
 				1AAB3CAA1A0FC8DE00227D5F /* UIViewController+RESideMenu.m */,
 				1AAB3CAB1A0FC8DE00227D5F /* UIViewController+RESideMenu.h */,
 				1AAB3CAC1A0FC8DE00227D5F /* RESideMenu.m */,
@@ -519,6 +540,7 @@
 				1AAB3CB01A0FC8DE00227D5F /* UIViewController+RESideMenu.m in Sources */,
 				1AAB3C541A0FC80F00227D5F /* AirFlowViewController.m in Sources */,
 				1AAB3C4F1A0FC80F00227D5F /* GsrViewController.m in Sources */,
+				1AB85DF61A0FF05C00A57938 /* RECommonFunctions.m in Sources */,
 				1AAB3C351A0FC80300227D5F /* DataModel.m in Sources */,
 				1AAB3C4D1A0FC80F00227D5F /* RootViewController.m in Sources */,
 				1AAB3C4B1A0FC80F00227D5F /* TempViewController.m in Sources */,
@@ -644,6 +666,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/HealthKit/ExternalLibraries/CorePlot",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -660,6 +683,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/HealthKit/ExternalLibraries/CorePlot",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

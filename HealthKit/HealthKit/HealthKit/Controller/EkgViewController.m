@@ -20,11 +20,6 @@
 
 @implementation EkgViewController
 
--(void)viewDidAppear:(BOOL)animated {
-    self.graphHostView = self.hostView;
-    [super viewDidAppear:animated];
-}
-
 -(void)viewDidLoad{
     self.graphHostView = self.hostView;
     [super viewDidLoad];
