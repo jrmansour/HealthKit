@@ -1,0 +1,21 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//test-health-kit-Prefix.pch is the precompiled header file for this project. The precompiled header is automatically included for every source file in the project. So it’s a convenient location to add imports to that would need to be in almost every class file
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+#import "CorePlot-CocoaTouch.h"
+#import "CPDConstants.h"
+
+
+#endif

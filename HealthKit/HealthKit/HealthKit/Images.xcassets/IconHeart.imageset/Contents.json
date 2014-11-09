@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x",
+      "filename" : "orange_heart_icon_ocal_favorites_icon_selected_orange_black_white_line_coloring_book_colouring_sheet_page.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "filename" : "orange_heart_icon_ocal_favorites_icon_selected_orange_black_white_line_coloring_book_colouring_sheet_page-1.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "filename" : "orange_heart_icon_ocal_favorites_icon_selected_orange_black_white_line_coloring_book_colouring_sheet_page-2.png"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
