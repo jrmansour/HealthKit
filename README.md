@@ -15,4 +15,6 @@ Arduino und Raspbery Gruppen vereinbartes Protokoll übermittelt.
 
 ![](https://raw.githubusercontent.com/jrmansour/HealthKit/master/Screenshots/Screen%20Shot%20side%20menu%20copy.png)
 
+![](https://raw.githubusercontent.com/jrmansour/HealthKit/master/Screenshots/Screen%20Shot%20change%20theme%20copy.png)
+
 ![](https://raw.githubusercontent.com/jrmansour/HealthKit/master/Screenshots/Screen%20Shot%20rotated%20screen%20copy.png)
